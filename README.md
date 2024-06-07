@@ -142,7 +142,7 @@ Persiapan awal adalah mengunduh aplikasi REST Client, ada banyak aplikasi yang d
 
    - Selanjutnya akan muncul daftar route yang telah dibuat.
 
-     ![img]()
+     ![img](https://github.com/Abidluayraihantaufik/Lab7_WEB2-API/blob/main/ci4/img/1.PNG)
 
    - Seperti yang terlihat, satu baris kode routes yang di tambahkan akan menghasilkan banyak Endpoint.
 
@@ -150,14 +150,14 @@ Persiapan awal adalah mengunduh aplikasi REST Client, ada banyak aplikasi yang d
 
    Buka aplikasi **postman** dan pilih **create new → HTTP Request**.
 
-   ![4]()
+   ![img](https://github.com/Abidluayraihantaufik/Lab7_WEB2-API/blob/main/ci4/img/2.PNG)
 5. **Menampilkan Semua Data**
 
    - Pilih method **GET** dan masukkan URL berikut: http://localhost:8080/post
 
    - Lalu, klik **Send**. Jika hasil test menampilkan semua data artikel dari database, maka pengujian berhasil.
 
-   ![5]()
+   ![img](https://github.com/Abidluayraihantaufik/Lab7_WEB2-API/blob/main/ci4/img/3.PNG)
 
 6. **Menampilkan Data Spesifik**
 
@@ -165,7 +165,7 @@ Persiapan awal adalah mengunduh aplikasi REST Client, ada banyak aplikasi yang d
 
    - Selanjutnya, klik **Send**. Request tersebut akan menampilkan data artikel yang memiliki ID nomor 2 di database.
 
-   ![6]()
+   ![img](https://github.com/Abidluayraihantaufik/Lab7_WEB2-API/blob/main/ci4/img/4.PNG)
 
 7. **Mengubah Data**
 
@@ -173,7 +173,7 @@ Persiapan awal adalah mengunduh aplikasi REST Client, ada banyak aplikasi yang d
 
    - Selanjutnya, pilih tab **Body**. Kemudian, pilih **x-www-form-uriencoded**. Masukkan nama atribut tabel pada kolom **KEY** dan nilai data yang baru pada kolom **VALUE**. Kalau sudah, klik **Send**.
 
-   ![7]()
+   ![img](https://github.com/Abidluayraihantaufik/Lab7_WEB2-API/blob/main/ci4/img/5.PNG)
 
 8. Menambahkan Data
 
@@ -181,7 +181,7 @@ Persiapan awal adalah mengunduh aplikasi REST Client, ada banyak aplikasi yang d
 
    - Pilih tab **Body**, lalu pilih **x-www-form-uriencoded**. Masukkan atribut tabel pada kolom **KEY** dan nilai data baru di kolom **VALUE**. Jangan lupa, klik **Send**.
 
-   ![8]()
+   ![img](https://github.com/Abidluayraihantaufik/Lab7_WEB2-API/blob/main/ci4/img/6.PNG)
 
 9. Menghapus Data
 
@@ -189,6 +189,6 @@ Persiapan awal adalah mengunduh aplikasi REST Client, ada banyak aplikasi yang d
 
    - Langsung saja klik **Send**, maka akan mendapatkan pesan bahwa data telah berhasil dihapus dari database.
 
-   ![9]()
+   ![img](https://github.com/Abidluayraihantaufik/Lab7_WEB2-API/blob/main/ci4/img/7.PNG)
 
 
